@@ -12,18 +12,13 @@ export default function LogoIcon(props: React.SVGProps<SVGSVGElement>) {
       className={clsx('h-6 w-6', props.className)}
     >
       <rect width="64" height="64" fill="#0B3D91" rx="8" />
-      <text
-        x="50%"
-        y="50%"
-        dominantBaseline="middle"
-        textAnchor="middle"
-        fontFamily="Georgia, serif"
-        fontSize="36"
-        fill="white"
-        fontWeight="bold"
-      >
-        N
-      </text>
+         <g transform="translate(50,50) scale(1.5)">
+           <path
+             d="M-10,10 L-10,-10 L0,5 L0,-10 L10,-10 L10,10 L0,-5 L0,10 Z"
+             fill="white"
+           />
+         </g>
+
     </svg>
   );
 }
