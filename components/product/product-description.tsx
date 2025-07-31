@@ -1,3 +1,5 @@
+"use client"
+
 import { AddToCart } from 'components/cart/add-to-cart';
 import Price from 'components/price';
 import Prose from 'components/prose';
